@@ -34,8 +34,8 @@ test.describe('IE Google Search', function() {
   var driver, server;
   
   test.before(function() {   
-    var jar = optimist.demand('selenium').argv.config;
-    var iedriver = optimist.demand('iedriver').argv.config;
+    var jar = optimist.demand('selenium').argv.selenium;
+    var iedriver = optimist.demand('iedriver').argv.iedriver;
     
     assert.ok(!!jar, 'SELENIUM environment variable not set');
     assert.ok(fs.existsSync(jar), 'The specified jar does not exist: ' + jar);
