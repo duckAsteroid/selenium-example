@@ -3,7 +3,12 @@ selenium-example
 
 This example project shows how to use Selenium JavaScript and the InternetExplorer driver.
 
-To run the JS
+Prerequisites:
+* You must have [http://www.java.com/](Java) installed - as we use the web driver JAR to launch IE
+* You must be running on Windows OS (tested with XP)
+* You must have Internet Explorer installed (tested with IE7)
+
+To run the JS test:
 
 1. Install Node.js from http://nodejs.org/download/ (use the MSI - it sets environment variables)
 2. Download the latest Selenium standalone web driver JAR from https://code.google.com/p/selenium/downloads/list
