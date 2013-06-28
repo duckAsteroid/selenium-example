@@ -13,3 +13,9 @@ To run the JS
 4. Install the Selenium WebDriver for JS `npm install selenium-webdriver`
 5. Install the mocha test framework `npm install -g mocha`
 6. Install the optimist command line processor for JS `npm install optimist`
+
+To run the example you then use the command line:
+
+`mocha -R list ie_test.js --selenium "C:\Selenium\selenium-server-standalone-2.33.0.jar" --iedriver "C:\Selenium\IEDriverServer.exe"`
+
+Where you can substitute the paths to the JAR you downloaded in step 2, and the EXE from step 4 above.
